@@ -1,5 +1,5 @@
-use <__comm__/__frags.scad>
-use <ptf/ptf_rotate.scad>
+use <../__comm__/__frags.scad>
+use <./ptf/ptf_rotate.scad>
 
 function great_circle_arc(p1, p2) =
     let(
@@ -13,13 +13,13 @@ function great_circle_arc(p1, p2) =
     [for(i = [0:steps]) ptf_rotate(p1, a_step * i, normal_vt)];
 
 /*
-use <experimental/great_circle_arc.scad>
-use <voronoi/vrn_sphere.scad>
-use <fibonacci_lattice.scad>
-use <polyline_join.scad>
+use <./experimental/great_circle_arc.scad>
+use <./voronoi/vrn_sphere.scad>
+use <./fibonacci_lattice.scad>
+use <./polyline_join.scad>
 
-use <util/dedup.scad>
-use <util/sorted.scad>
+use <./util/dedup.scad>
+use <./util/sorted.scad>
 
 include <__comm__/_str_hash.scad>
 
@@ -60,15 +60,15 @@ for(edge = deduped) {
 */
 
 /*
-use <experimental/great_circle_arc.scad>
-use <voronoi/vrn_sphere.scad>
-use <fibonacci_lattice.scad>
+use <./experimental/great_circle_arc.scad>
+use <./voronoi/vrn_sphere.scad>
+use <./fibonacci_lattice.scad>
 
-use <shape_star.scad>
-use <path_extrude.scad>
+use <./shape_star.scad>
+use <./path_extrude.scad>
 
-use <util/dedup.scad>
-use <util/sorted.scad>
+use <./util/dedup.scad>
+use <./util/sorted.scad>
 
 include <__comm__/_str_hash.scad>
 

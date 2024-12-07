@@ -1,6 +1,6 @@
 use <../in_shape.scad>
 use <../util/sorted.scad>
-use <vx_polyline.scad>
+use <./vx_polyline.scad>
 use <../util/set/hashset.scad>
 use <../util/set/hashset_elems.scad>
 

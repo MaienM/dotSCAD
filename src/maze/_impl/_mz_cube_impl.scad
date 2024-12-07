@@ -1,4 +1,4 @@
-use <_mz_cube_comm.scad>
+use <./_mz_cube_comm.scad>
 use <../../util/shuffle.scad>
 use <../../matrix/m_replace.scad>
 

@@ -8,8 +8,8 @@
 *
 **/ 
 
-use <_impl/_sf_square_surfaces.scad>
-use <sf_solidify.scad>
+use <./_impl/_sf_square_surfaces.scad>
+use <./sf_solidify.scad>
 use <../ptf/ptf_ring.scad>
 
 module sf_ring(levels, radius, thickness, depth, angle = 360, twist = 0, invert = false, convexity = 1) {

@@ -1,4 +1,4 @@
-use <_mz_cube_comm.scad>
+use <./_mz_cube_comm.scad>
 
 include <_mz_cube_constants.scad>
 

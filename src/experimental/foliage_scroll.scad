@@ -1,4 +1,4 @@
-use <_impl/_foliage_scroll_impl.scad>
+use <./_impl/_foliage_scroll_impl.scad>
 
 function foliage_scroll(size, max_spirals, init_radius, min_radius, angle_step = 10, done = 0) =
     let(
@@ -13,7 +13,7 @@ function foliage_scroll(size, max_spirals, init_radius, min_radius, angle_step =
     ];
 
 
-use <polyline_join.scad>
+use <./polyline_join.scad>
 
 width = 400;
 height = 400;

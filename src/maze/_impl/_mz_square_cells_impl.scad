@@ -1,4 +1,4 @@
-use <_mz_square_comm.scad>
+use <./_mz_square_comm.scad>
 use <../../matrix/m_replace.scad>
 
 include <_mz_square_cell_constants.scad>
